@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nala's Website</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+        
+    <!-- Header -->
+    <nav class="header">
+        <ul>
+            <li><a class="home" href="#top">Nala</a></li>
+            <li><a class="pagelink" href="#nala-rotation-station">Nala Rotation Station</a></li>
+            <li><a class="pagelink" href="#hide-and-go">Hide and Go Nala</a></li>
+            <li><a class="pagelink" href="#nala-card">Nala's Social Media</a></li>
+        </ul>
+    </nav>
+
+    <!-- Rotation Station Section -->
+    <div class="banner" id="nala-rotation-station">
+        <h1>Nala Rotation Station</h1>
+        <img id="small-nala" src="./assets/nalas_face.png" alt="Nala face PNG" />
+        <p>My name is nala and i am 8 years old. My face can rotate left or right, give it a try!</p>
+        <button type="button" id="rotate-left-button">Rotate Left</button>
+        <button type="button" id="rotate-right-button">Rotate Right</button>
+    </div>
+
+    <!-- Hide and Go Section -->
+    <div id="hide-and-go">
+        <h2>Hide and Go Nala</h2>
+        <p>A combination of event listeners and event handlers gives you the ability to define how a site should react to your user's action. For instance, you
+            can trigger an event when a user <strong>hovers over an element on your site</strong>.</p>
+        <p><em>You're not limited to mouse events, you can also define key events when users interact with their
+                keyboards.</em></p>
+        <div class="border" id="nala-border">
+            <img class="" id="toggle-nala" src="./assets/nalas_face.png" alt="Nala face PNG" />
+        </div>
+    </div>
+
+    <!-- Nala Social section -->
+    <div class="nala-card" id="nala-card">
+        <span class="nala bold" id="nala">Nala's Social Media</span>
+        <p class="subheader">Social media dedicated to Nala... and only Nala.. cause she's a psycho.</p>
+        <form id="nala-form">
+            <input type='text' name='greet' />
+            <input type="submit" value="Submit">
+        </form>
+        <div id="greets">
+            <ul>
+                <li>
+                    <div class='avatar'></div><span>Hey there, it's Nala again.</span>
+                </li>
+                <li>
+                    <div class='avatar'></div><span>I've had 2 walks since yesterday.</span>
+                </li>
+                <li>
+                    <div class='avatar'></div><span>Woof.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./js/add-functionality-nala.js"></script>
+</body>
+
+</html>
